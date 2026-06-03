@@ -24,7 +24,6 @@
   "scripts": {
     "test": "npx browserstack-node-sdk jest",
     "sample-test": "npx browserstack-node-sdk jest src/sample.test.js",
-    "sample-local-test": "npx browserstack-node-sdk jest src/sample-local.test.js",
-    "postinstall": "npm update browserstack-node-sdk"
+    "sample-local-test": "npx browserstack-node-sdk jest src/sample-local.test.js"
   }
 }

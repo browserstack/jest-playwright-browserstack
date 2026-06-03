@@ -6,3 +6,12 @@ browserstack.err
 
 .vscode/
 .env
+node_modules
+.venv
+venv
+__pycache__
+bin/
+obj/
+target/
+*.log
+.pytest_cache

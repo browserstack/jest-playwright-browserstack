@@ -1,0 +1,30 @@
+{
+  "name": "jest-playwright-browserstack",
+  "version": "1.0.0",
+  "author": "BrowserStack",
+  "license": "MIT",
+  "description": "Playwright examples using Jest and BrowserStack",
+  "keywords": [
+    "browserstack",
+    "playwright",
+    "automate",
+    "examples",
+    "jest",
+    "jestjs"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.5.5",
+    "browserstack-node-sdk": "latest",
+    "playwright": "^1.44.0"
+  },
+  "scripts": {
+    "test": "npx browserstack-node-sdk jest",
+    "sample-test": "npx browserstack-node-sdk jest src/sample.test.js",
+    "sample-local-test": "npx browserstack-node-sdk jest src/sample-local.test.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  }
+}

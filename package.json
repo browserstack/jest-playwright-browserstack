@@ -13,13 +13,13 @@
     "jestjs"
   ],
   "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "jest": "^29.7.0",
-    "@playwright/test": "^1.44.0"
+    "browserstack-node-sdk": "1.49.3",
+    "jest": "29.7.0",
+    "@playwright/test": "1.55.0"
   },
   "dependencies": {
-    "browserstack-local": "^1.5.5",
-    "browserstack-node-sdk": "latest"
+    "browserstack-local": "^1.4.8",
+    "selenium-webdriver": "4.28.1"
   },
   "scripts": {
     "test": "npx browserstack-node-sdk jest",

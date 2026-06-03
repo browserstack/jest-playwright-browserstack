@@ -7,7 +7,7 @@ describe("BStack demo test", () => {
   beforeAll(async () => {
     // The BrowserStack Node SDK patches playwright.chromium.connect() at import
     // time, so launch() is transparently routed to the BrowserStack cloud.
-    browser = await chromium.launch();
+    browser = await chromium.launch({ headless: false });
     page = await browser.newPage();
   });
 

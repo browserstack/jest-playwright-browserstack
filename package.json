@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "latest",
     "browserstack-node-sdk": "latest",
-    "jest": "latest",
-    "playwright": "latest"
+    "jest": "latest"
   }
 }

@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+const { chromium } = require('@playwright/test');
 
 // Sample test: add the first product to the cart on bstackdemo.com and verify.
 // Your code calls `chromium.launch()` as usual -- the BrowserStack SDK transparently

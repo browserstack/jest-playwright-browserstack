@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+const { chromium } = require('@playwright/test');
 
 // Local test: with `browserstackLocal: true` in browserstack.yml the SDK opens a
 // tunnel, so the cloud browser can reach http://bs-local.com:<port>/ -- a host that

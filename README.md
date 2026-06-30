@@ -6,7 +6,7 @@ This sample shows how to run [Jest](https://jestjs.io/) + [Playwright](https://p
 
 ## Prerequisites
 
-* [Node.js](https://nodejs.org/) (LTS recommended) and npm
+* [Node.js](https://nodejs.org/) 18, 20, or 22 LTS, and npm (verified on Node 20)
 * A BrowserStack account -- grab your [Username and Access Key](https://www.browserstack.com/accounts/settings)
 
 ## Setup

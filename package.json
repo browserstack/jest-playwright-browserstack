@@ -1,0 +1,19 @@
+{
+  "name": "jest-playwright-browserstack",
+  "version": "1.0.0",
+  "description": "Sample showing how to run Jest + Playwright tests on BrowserStack using the BrowserStack Node SDK",
+  "main": "index.js",
+  "scripts": {
+    "sample-test": "browserstack-node-sdk jest --config=jest.config.js",
+    "sample-local-test": "browserstack-node-sdk jest --config=jest.local.config.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserstack-node-sdk": "latest",
+    "jest": "latest",
+    "playwright": "latest"
+  }
+}
